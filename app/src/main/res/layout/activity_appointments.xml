@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Appointments">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="ADD APPOINTMENT"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:transitionName="logo_text
+" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Hospital Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Enter Hospital Name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Enter Date" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="textPersonName"
+        android:hint="Enter Time" />
+
+
+</LinearLayout>
