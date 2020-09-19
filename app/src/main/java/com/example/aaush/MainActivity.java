@@ -1,6 +1,6 @@
 package com.example.aaush;
 
-import androidx.annotation.RequiresApi;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActivityOptions;
@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     Animation topAnimation,bottomAnimation,middleAnimation;
-    @RequiresApi(api = Build.VERSION_CODES.P)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

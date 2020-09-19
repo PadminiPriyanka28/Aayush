@@ -16,7 +16,8 @@
         android:layout_marginTop="2dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:gravity="center_vertical"
-        android:text="Welcome,User"
+        android:text="Welcome User!!"
+        android:textColor="@color/colorAccent"
         android:textSize="40sp" />
 
     <TextView
@@ -27,8 +28,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Your Appointments"
-        android:textSize="25dp" />
+        android:text="Your Appointments:"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
 
     <CalendarView
         android:id="@+id/calendarView"
@@ -69,6 +71,7 @@
                 android:fontFamily="sans-serif-condensed-medium"
                 android:gravity="center_vertical"
                 android:text="Appointments"
+                android:textColor="@color/colorAccent"
                 android:textSize="20dp" />
 
         </LinearLayout>
@@ -99,6 +102,7 @@
                 android:layout_marginStart="27dp"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:gravity="center_vertical"
+                android:textColor="@color/colorAccent"
                 android:text="Reports"
                 android:textSize="20dp" />
 

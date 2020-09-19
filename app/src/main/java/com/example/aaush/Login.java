@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.loginBtn);
         fAuth = FirebaseAuth.getInstance();
         forgotTextLink = findViewById(R.id.forgotPassword);
-
+        
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
